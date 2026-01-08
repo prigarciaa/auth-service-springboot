@@ -1,0 +1,9 @@
+package com.priscila.authservice.dto;
+
+import lombok.Data;
+
+@Data
+public class AuthLoginRequestDTO {
+    private String email;
+    private String password;
+}
